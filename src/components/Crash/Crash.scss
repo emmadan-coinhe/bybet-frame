@@ -1,0 +1,54 @@
+.effects-box {
+  //   width: 100%;
+  //   height: 100%;
+  //   margin: 0 auto;
+  //   position: relative;
+  //   height: 90%;
+  //   width: 90%;
+
+  //   display: flex;
+  //   justify-content: center;
+  //   align-items: center;
+  //   background: rgba(0, 0, 0, 0.5);
+  //   overflow: hidden;
+  //   border-radius: 20px;
+  //   z-index: 1;
+  //   margin-top: 2.5%;
+  //   &::before {
+  //     content: "";
+  //     position: relative;
+  //     width: 20%;
+  //     height: 250%;
+  //     background: linear-gradient(#00ccff, #d400d4);
+  //     animation: animate 2s linear infinite;
+  //   }
+  //   &::after {
+  //     content: "";
+  //     position: absolute;
+  //     inset: 4px;
+  //     background-color: #393e40;
+  //     border-radius: 16px;
+  //   }
+}
+.multipler_crash_value_message {
+  color: rgb(160, 8, 8);
+}
+
+.basically-the-graph {
+  //   z-index: 10;
+  //   width: 100%;
+  //   height: 100%;
+  canvas {
+    background: rgba(0, 0, 0, 0.5);
+  }
+}
+
+@keyframes animate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
